@@ -1,0 +1,291 @@
+
+
+/* ------------for header------------------  */
+
+
+@media only screen and (max-width: 480px) {
+   
+    .col-header-1{
+display: none;
+    }
+  
+
+    .col-header-2{
+order: 2;
+ }
+ .fa-search{
+ float: left;
+ margin-top: 5px;
+}
+    /* .srch 
+    {
+        height: 25px;
+    
+        align-items: center;
+        width:340px;
+       
+    }
+    .fa-bell{
+        float: right;
+        margin-top: 5px;
+        margin-left: 5px;
+    } */
+    .col-header-3{
+        display: none;
+    }
+}
+.col-header-1 .col{
+    text-align: center;
+}
+.col-header-1 .col-6{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+.col-header-2 .col{
+    text-align: center;
+    
+}
+
+.header a{
+    color: inherit;
+   
+}
+.header a i{
+    
+   
+    margin-right: 5px;
+}
+.header a i{
+    
+   
+    margin-right: 5px;
+}
+.col-header-2 a{
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+@media only screen and (max-width: 770px)
+{
+    .col-header-1{
+        display: none;
+    
+    } 
+   
+}
+
+@media only screen and (max-width: 480px)
+{
+    .col-header-2{
+        background-color: #00004d;
+    }
+    .col-header-2 a{
+       color: white;
+    } 
+    .header-row{
+        margin-top: 0;
+    }
+    .search-form{
+        text-align: right;
+      
+    }
+    
+   
+}
+@media only screen and (min-width: 481px) and (max-width: 770px)
+{
+    .col-header-3{
+        display: none !important;
+
+    }   
+  
+}
+@media only screen and (min-width: 481px) 
+{
+    .header-row{
+        margin-top: 10px;
+    }
+    .search-form{
+        text-align: center;
+    }
+}
+
+
+/* ----------------for navbar---------------- */
+.okkk{
+    color:white;
+}
+
+@media only screen and (max-width: 770px)
+{
+    .navarea{
+        background-color: white !important;
+    }
+}
+
+@media only screen and (max-width: 480px)
+{
+    
+    .navbar{
+       background-color: #e56d00 !important;
+    }
+  
+    .navbarcode .navbar{
+    
+        background-color: #fff !important;
+    } 
+}
+@media only screen and (min-width: 481px)
+{
+    .navbarcode .navbar{
+    
+        background-color: #00004d !important;    
+       }
+     
+  
+}
+@media only screen and (max-width: 480px)
+{
+    .navbarcode .navbar a{
+    
+        color: black !important;
+        font-size: large;
+           }
+           .okkk{
+            color: black !important;
+            font-size: 25px !important;
+            
+        }
+}
+.navbar-collapse
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.navbar{
+    overflow: hidden;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.topnav a {
+    float: left;
+    display: block;
+   height: 50px;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    color: white !important;
+ 
+  }
+  .topnav li:hover {
+    border-bottom: 2px solid #e56d00;
+    color: #e56d00 !important;
+    margin-top: -2px;
+    text-decoration: none;
+    color: inherit;
+    }
+ 
+  .navbar-toggler {
+     border-color: 2px white;
+  }
+  .navbarcode button{
+    border-color: white !important;
+    color: white !important;
+  }
+  @media only screen and (max-width: 480px)
+  {
+    .navbarcode button{
+        border-color: black !important;
+        color: black !important;
+      }  
+  }
+
+
+  /* --------------for page contents-----------------  */
+
+
+  @media only screen and (max-width: 480px)
+{
+    
+    .site-cards .col-md-3{
+       margin-left: 30px;
+       margin-right: 30px;
+       
+    } 
+}
+
+.content-heading h1{
+    font-weight: bolder
+  }
+  .card-title{
+      color: black;
+  }
+  .card-col1 h5{
+      color: white;
+  }
+  .card-col3 img{
+      height: 20vh;
+  }
+
+  @media only screen and (min-width: 480px)
+  {
+      .content-heading,.site-cards{
+          margin-left: 50px;
+          margin-right: 50px;
+      }
+  }
+  @media only screen and (max-width: 990px)
+  {
+      .card-col2,.card-col3{
+          margin-top: 15px;
+      }
+  }
+
+
+   /* -----------------for footer -------------------- */
+
+
+
+   .footer{
+       background-color: #00004d;
+   }
+
+   .footer h2,h6{
+       color: white;
+      
+   }
+   .footer-links a{
+       color: white;
+       text-decoration: none;
+      
+   }
+   .footer-col2{
+       margin-top: 15px;
+   }
+   .footer-col1,.footer-col2,.footer-col3,.footer-col4{
+       margin-top: 10px;
+   }
+   @media only screen and (max-width: 990px)
+{
+    .footer-col1,.footer-col2,.footer-col3,.footer-copyright h6{
+        display: none;
+    }
+}
+   @media only screen and (max-width: 990px)
+{
+    .footer-col4{
+     text-align: center;
+    }
+}
+
+
+
+
+       /*----------------------------------------- */

@@ -1,0 +1,53 @@
+/* .social-icons .fa-whatsapp,.fa-instagram,.fa-envelope{
+    padding-top: 37px;
+} */
+
+/* .social-icons i{
+padding: 13px 0px;
+} */
+
+@media only screen and (min-width: 481px)
+{
+    .news_detail_area{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+@media only screen and (max-width: 480px)
+{
+    .news_detail_area{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .col-md-7 .card-img{
+        height: 40vh !important;
+    }
+    /* .fa-facebook-square{
+        margin-right: 0px;
+        margin-top: 35px;
+        
+        padding-top: 0px !important;
+    } */
+    .social-icons .fa-whatsapp,.fa-instagram,.fa-envelope{
+       margin: 0px 10px;
+    
+    }
+    .social-icons .fa-facebook-square{
+       margin-left: 0px;
+    
+    }
+    .social-icons .fa-facebook-square{
+       margin-left: 5px;
+    
+    }
+    .social-icons .fa-whatsapp{
+        margin-left: 20px !important;
+    }
+   
+    .col-md-2 ul{
+      display: inline-flex !important;
+    }
+ 
+.col-md-7 .card-img{
+    height: 60vh;
+}
